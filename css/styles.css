@@ -2,19 +2,19 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
-    color: #40514E
+    color: #40514E;
 }
 
 hr {
     border-style: dotted none none none;
     border-width: 6px;
     width: 4%;
-    color: lightgray;
+    color: darkolivegreen;
     margin: 100px auto;
 }
 
 h1 {
-    margin: 50px auto 0 auto;
+    margin: 50px auto 50px auto;
     font-family: 'Sacramento', cursive;
     font-size: 562.5%;
     color: #66bfbf;
@@ -44,8 +44,21 @@ a {
     font-weight:bold
 }
 
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    padding: 20px
+}
+
+th {
+    color: #11999E;
+}
+
 a:hover {
-    color: #EAF6F6;
+    color: #40514E;
 }
 
 .programmer {
@@ -63,7 +76,7 @@ a:hover {
 
 .skill-row {
     width: 50%;
-    margin: 100px auto 100px auto;
+    margin: 150px auto 100px auto;
     text-align: left;
 }
 
@@ -83,17 +96,18 @@ a:hover {
 
 .top-container {
     background-color: #E4F9F5;
-    padding-top: 100px;
+    padding: 100px 0px;
     position: relative;
 }
 
 .middle-container {
-    margin: 100px 0px;
+    padding: 100px;
+    background-color: antiquewhite;
 }
 
 .bottom-container {
     padding: 50px 0 20px;
-    background-color:  #66bfbf;
+    background-color:  E4F9F5;
 }
 
 .contact-message {
@@ -103,7 +117,6 @@ a:hover {
 
 .footer-link {
     margin: auto 20px auto 20px;
-    color: #11999E;
 }
 
 .pro {
@@ -115,20 +128,29 @@ a:hover {
     margin: auto;
 }
 
-.top-cloud {
+.js-logo {
     position: absolute;
+    width: 100px;
+    height: auto;
     right: 300px;
     top: 40px;
 }
 
-.bottom-cloud {
+.html-logo {
     position: absolute;
+    width: 100px;
+    height: auto;
     left: 250px;
-    bottom: 300px;
+    bottom: 150px;
+}
+
+.css-logo {
+    width: 100px;
+    height: auto;
 }
 
 .copyright {
-    color: #EAF6F6;
+    /* color: darkgreen; */
     font-size: 0.75rem;
     padding: 20px 0;
 }
